@@ -147,11 +147,16 @@ None
 
 # Dictionary
 
-dictionary = {
-    123: [1,2,3],
-    True: 'Hello',
-    's': 23,
-    'a': "Hello me"
-}
+# dictionary = {
+#     123: [1,2,3],
+#     True: 'Hello',
+#     's': 23,
+#     'a': "Hello me"
+# }
 
-print(dictionary)
+# print(dictionary)
+
+# Tuple
+
+my_tuple = (1,2,3,4,5)
+print(5 in my_tuple)
