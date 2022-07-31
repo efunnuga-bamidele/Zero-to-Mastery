@@ -99,18 +99,47 @@ None
 # Data Structure
 # List
 
-li1 = [1,2,3,4,5]
-li2 = ['a', 'b', 'c']
-li3 = [1,2,'a', True]
+# li1 = [1,2,3,4,5]
+# li2 = ['a', 'b', 'c']
+# li3 = [1,2,'a', True]
 
-amazon_cart = ['notebooks', 'sunglasses', 'Toys', 'Grapes']
+# amazon_cart = ['notebooks', 'sunglasses', 'Toys', 'Grapes']
 
-print(amazon_cart)
-# list indexing
-print(amazon_cart[2])
-# List slicing
-print(amazon_cart[0:2])
+# print(amazon_cart)
+# # list indexing
+# print(amazon_cart[2])
+# # List slicing
+# print(amazon_cart[0:2])
 
-# list mutable
-amazon_cart[0] = 'laptop'
-print(amazon_cart)
+# # list mutable
+# amazon_cart[0] = 'laptop'
+# print(amazon_cart)
+
+# list methods
+# basket = [1,2,3,4,5]
+# print(basket)
+# #adding
+# basket.append(100)
+# new_list = basket
+# print(new_list)
+
+# # insert
+# new_list.insert(100, 101)
+# print(new_list)
+
+# # extend
+# new_list.extend([102])
+# # new_list = basket
+# print(new_list) 
+
+print(list(range(100)))
+
+# List unparking
+
+a,b,c, *others, d = [1,2,3,4,5,6,7,8,9]
+
+print(a)
+print(b)
+print(c)
+print(others)
+print(d)
