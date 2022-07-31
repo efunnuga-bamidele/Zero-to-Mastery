@@ -132,14 +132,26 @@ None
 # # new_list = basket
 # print(new_list) 
 
-print(list(range(100)))
+# print(list(range(100)))
 
 # List unparking
 
-a,b,c, *others, d = [1,2,3,4,5,6,7,8,9]
+# a,b,c, *others, d = [1,2,3,4,5,6,7,8,9]
 
-print(a)
-print(b)
-print(c)
-print(others)
-print(d)
+# print(a)
+# print(b)
+# print(c)
+# print(others)
+# print(d)
+
+
+# Dictionary
+
+dictionary = {
+    123: [1,2,3],
+    True: 'Hello',
+    's': 23,
+    'a': "Hello me"
+}
+
+print(dictionary)
