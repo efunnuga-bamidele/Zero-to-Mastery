@@ -95,3 +95,22 @@ None
 # else:
 #     print('Profile was not liked')
 
+
+# Data Structure
+# List
+
+li1 = [1,2,3,4,5]
+li2 = ['a', 'b', 'c']
+li3 = [1,2,'a', True]
+
+amazon_cart = ['notebooks', 'sunglasses', 'Toys', 'Grapes']
+
+print(amazon_cart)
+# list indexing
+print(amazon_cart[2])
+# List slicing
+print(amazon_cart[0:2])
+
+# list mutable
+amazon_cart[0] = 'laptop'
+print(amazon_cart)
