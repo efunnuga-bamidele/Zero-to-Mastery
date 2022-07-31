@@ -158,5 +158,11 @@ None
 
 # Tuple
 
-my_tuple = (1,2,3,4,5)
-print(5 in my_tuple)
+# my_tuple = (1,2,3,4,5)
+# print(5 in my_tuple)
+
+#Sets  //Unique, un-ordered, mutable, no indexing
+
+my_set = {1,2,3,4,5,5}
+
+print(my_set)
