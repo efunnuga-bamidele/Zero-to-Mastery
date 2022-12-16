@@ -3,10 +3,9 @@ print("This is a simple \"Guess Your Age Application\"! ")
 
 birth_year = int(input("What year where you born? "))
 
-def guessYourAge(age):
+def guessMyAge(birth_year):
 
-    your_age = datetime.datetime.now().year - age
-    return f"You are {your_age} years old!"
-
-
-print(guessYourAge(birth_year))
+    my_age = datetime.datetime.now().year - birth_year
+    print(f"You are currently {my_age} years old!")
+19
+guessMyAge(birth_year)
