@@ -1,5 +1,8 @@
-import utility
-import shopping.shopping_cart
+from utility import multiply, divide
+from shopping.more_shopping.shopping_cart import buy
 
-print(utility.divide(20, 4))
-print(shopping.shopping_cart.buy("Books"))
+
+if __name__ == '__main__':
+    print(divide(20, 4))
+    print(buy("Books"))
+    print(multiply(5, 2))
