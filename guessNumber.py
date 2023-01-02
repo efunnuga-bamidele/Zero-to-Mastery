@@ -1,13 +1,24 @@
-# import sys
-# from random import randint
+from random import randint
 
-# print("Welcome to Guess a Number game!\n")
+def runGuess(guess, answer):
+    if 0 < guess < 11:
+        if guess == answer:
+            print('you are a genius!')
+            return True
+    else:
+        print('hey bozo, I said 1 ~ 10')
+        return False
 
-# answer = randint(1, 10)
+answer = randint(1, 10)
 
-# guess = input("Guess a number between [1 - 10]: ")
-# # number = sys.argv[1]
+if __name__ == "__main__":
+    while True:
+        try:
+            guess = int(input('Guess a number 1 ~ 10: '))
+            if(runGuess(guess, answer)):
+                break
+        except ValueError:
+            print('please enter a number')
+            continue
 
-# while True:
 
-#     try
